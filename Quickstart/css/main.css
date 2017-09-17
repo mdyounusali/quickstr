@@ -128,6 +128,7 @@ footer,
 #main > aside {
    margin: 4px;
    padding: 1em;
+   border-radius:13px;
 
 }
 
@@ -163,11 +164,12 @@ header, footer {
 }
 
 header {
-   background: #633;
+   background: url(../ee.jpg);
 }
 
 footer {
-  background: #c66;
+  background:#1E1010;
+  text-align:center;;
 }
 
 
