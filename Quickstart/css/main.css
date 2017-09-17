@@ -95,17 +95,113 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   .body{
+/*starting style---younus---*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 1em;
+    font: 1.2em/1.3em 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto-Light', 'Roboto Light', 'Roboto', 'Segoe UI Web Light', 'Segoe UI Light', 'Segoe UI Web Regular', 'Segoe UI', Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+p {
+    margin: 0 0 1em 0;
+}
 
-     border: 0px solid;
-     border-radius: 18px;
-     width:800px;
-     margin:auto;
-     background:#F5F3EE;
-     height:750px;
-     margin-top:15px;
-     margin-bottom:15px;
-       }
+#main {
+   margin: 0;
+   padding: 0;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row;
+   flex-flow: row;
+}
+
+header,
+footer,
+#main > article,
+#main > nav,
+#main > aside {
+   margin: 4px;
+   padding: 1em;
+
+}
+
+#main > article {
+   background: #996;
+   -webkit-flex: 4 1 0;
+           flex: 4 1 0;
+   -webkit-order: 2;
+           order: 2;
+}
+
+#main > nav,
+#main > aside {
+   background: #663;
+   -webkit-flex: 1 6 0;
+           flex: 1 6 0;
+}
+#main > nav {
+   -webkit-order: 1;
+           order: 1;
+}
+
+#main > aside {
+   -webkit-order: 3;
+           order: 3;
+           display:none;
+
+}
+
+header, footer {
+   display: block;
+   min-height: 80px;
+}
+
+header {
+   background: #633;
+}
+
+footer {
+  background: #c66;
+}
+
+
+  @media all and (max-width: 640px) {
+
+   #main, #page {
+   -webkit-flex-flow: column;
+           flex-flow: column;
+
+}
+
+   #main > article, #main > nav, #main > aside {
+    /* Return them to document order */
+   -webkit-order: 0;
+            order: 0;
+   }
+   #main > footer {
+    min-height: 666px;
+
+
+   }
+
+   #main > nav, #main > aside, header, footer {
+    min-height: 400px;
+
+
+   }
+   #main > nav {
+    min-height: 666px;
+
+
+   }
+
+}
 
 
 
