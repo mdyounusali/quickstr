@@ -131,6 +131,16 @@ footer,
    border-radius:13px;
 
 }
+#navc ul{
+
+margin: 0;
+padding: 0;
+color:#000;
+text-align:center;
+list-style-type: none;
+
+}
+#navc ul li { display: inline; }
 
 #main > article {
    background: #996;
