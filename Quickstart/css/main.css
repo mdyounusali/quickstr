@@ -135,9 +135,13 @@ footer,
 
 margin: 0;
 padding: 0;
-color:#000;
 text-align:center;
 list-style-type: none;
+
+}
+#navc a{
+  color:#D3D2D0;
+  font-size:20px;
 
 }
 #navc ul li { display: inline; }
