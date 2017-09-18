@@ -164,7 +164,7 @@ header, footer {
 }
 
 header {
-   background: url(../ee.jpg);
+  /* background: url(../ee.jpg);*/
 }
 
 footer {
