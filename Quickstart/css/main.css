@@ -194,14 +194,15 @@ list-style-type: none;
            display:none;
 
 }
-.[fa fa-phone]{
+.column{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 
 }
+
 /*badge work here-----------------------*/
-.badge2{
-  position: relative;
 
-}
 .badge1[data-badge]:after{
   content:attr(data-badge);
   position: absolute;
@@ -234,9 +235,24 @@ footer {
   background:#1E1010;
   text-align:center;;
 }
+.navbar-form navbar-left{
+  float:right;
+
+}
+/*footer design ------*/
 
 
   @media all and (max-width: 640px) {
+     li{
+       font-size:15px;
+    }
+    li{
+      font-size:15px;
+    }
+    img{
+      width:80px;
+      height:80px;
+    }
 
    #main, #page {
    -webkit-flex-flow: column;
