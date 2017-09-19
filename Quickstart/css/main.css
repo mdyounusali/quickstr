@@ -232,14 +232,37 @@ header {
 }
 
 footer {
-  background:#1E1010;
+  background:#000;
   text-align:center;;
 }
 .navbar-form navbar-left{
   float:right;
 
 }
+/*----carousel start--------*/
+#slider,.item{
+height:400px;
+width:100%;
+
+}
+#slide1{
+  background:url('../images/1.jpg') center no-repeat;
+}
+#slide2{
+  background:url('../images/2.jpg') center no-repeat;
+
+}
+#slide3{
+  background:url('../images/3.jpg') center no-repeat;
+
+}
+
+
+/*-----carousel end*/
 /*footer design ------*/
+.fh5co-footer-links li{
+ list-style-type:none;
+}
 
 
   @media all and (max-width: 640px) {
