@@ -283,6 +283,13 @@ width:100%;
 
 
 /*-----carousel end*/
+/*---starpagination----*/
+.pag{
+  padding-right:60px;
+}
+
+
+/*----end pagination---*/
 /*footer design ------*/
 .fh5co-footer-links li{
  list-style-type:none;
@@ -290,6 +297,9 @@ width:100%;
 
 
   @media all and (max-width: 640px) {
+  .ami{
+      display:none;
+    }
      li{
        font-size:15px;
     }
@@ -324,7 +334,7 @@ width:100%;
 
    }
    #main > nav {
-    min-height: 666px;
+    min-height: 200px;
 
 
    }
