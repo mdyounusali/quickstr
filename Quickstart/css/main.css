@@ -140,6 +140,9 @@ list-style-type: none;
 
 
 }
+/*-------link list start----*/
+
+/*----link list end---------*/
 /*---social_profile_links start here----*/
 .social_profile_links li{
   margin: 40;
@@ -194,7 +197,7 @@ list-style-type: none;
 
 #main > nav,
 #main > aside {
-   background: #663;
+   background:;
    -webkit-flex: 1 6 0;
            flex: 1 6 0;
 }
